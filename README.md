@@ -8,8 +8,9 @@
 
 ## Usage
 
-```
 (For execute this project you will need download a Visual Studio)
+
+```
 Download the project, open the .sln file in the VS, execute the program and it
 will be ready for use!
 ```
