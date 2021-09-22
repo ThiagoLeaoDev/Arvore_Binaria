@@ -3,7 +3,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Project developed for the homework data structure Universidade Santa Cecília, where the goal was to use dynamic memory allocation to develop a Console Application type program that simulated a binary tree.
+Project developed for the homework data structure Universidade Santa Cecília, where the goal was to use dynamic memory allocation to develop a Console Application type program that simulated a binary tree.
 
 
 ## Usage
