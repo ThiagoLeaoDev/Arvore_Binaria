@@ -7,7 +7,7 @@ namespace TP_Arvore_Binaria
         public ArvoreBinaria()
         {
             info = 0;
-            sae = sad = null;
+            sae = sad = prev = null;
         }
         public void Insere(int n, ref ArvoreBinaria RAIZ, ref ArvoreBinaria aux)
         {
@@ -25,6 +25,7 @@ namespace TP_Arvore_Binaria
                         if(aux.sae == null)
                         {
                             aux.sae = this;
+                            aux.sae.prev = aux;
                         }
                         else
                         {
@@ -37,6 +38,7 @@ namespace TP_Arvore_Binaria
                         if (aux.sad == null)
                         {
                             aux.sad = this;
+                            aux.sad.prev = aux;
                         }
                         else
                         {
@@ -50,6 +52,7 @@ namespace TP_Arvore_Binaria
         private int info;
         ArvoreBinaria sae;
         ArvoreBinaria sad;
+        ArvoreBinaria prev;
         public void Consulta(int n, ref ArvoreBinaria RAIZ, ref ArvoreBinaria aux)
         {
             this.info = n;
